@@ -86,6 +86,7 @@ header .textos-header{
 }
 .imagen-about-us{
     width: 48%;
+    
 }
 .sobre-nosotros .contenido-textos{
     width: 48%;
@@ -129,7 +130,7 @@ footer{
 .content-foo{
     text-align: center;
 }
-.content-foo h4{
+#content-foo{
     color: #fff;
     border-bottom: 3px solid #bc4e9c;
     padding-bottom: 50px;
@@ -144,4 +145,11 @@ footer{
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #9e9797;
+}
+.imagen-about-us{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow:0 0 6px 0 rgba(0, 0, 0, .5) ;
+    border-radius: 15px;
 }
