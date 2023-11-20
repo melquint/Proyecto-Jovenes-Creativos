@@ -79,6 +79,9 @@ header .textos-header{
 }
 
 /*obout-us*/
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
 
 .contenedor-sobre-nosotros{
     display: flex;
@@ -152,4 +155,52 @@ footer{
     cursor: pointer;
     box-shadow:0 0 6px 0 rgba(0, 0, 0, .5) ;
     border-radius: 15px;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: centeer ;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:480px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav >a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+     
+    .textos-header h2{
+        font-size: 20px;
+    }
+    /* sobre nosotros*/
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
 }
