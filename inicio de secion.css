@@ -49,3 +49,35 @@
     margin: 16px 0;
     font-size: 16px;
 }
+
+@media screen and (max-width:900px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav >a{
+        margin-right: 5px;
+    }
+    .form-register{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+}
+    
+
+@media screen and (max-width:250px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav >a{
+        margin-right: 5px;
+    }
+    .form-register{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+}
+    
